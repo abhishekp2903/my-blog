@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+body{
+    background-color: #eeeeee !important;
+}
+
+body,h1,h2,h3,h4,h5,h6,p{
+    font-family: "Raleway", sans-serif;
+}
+
+button,button:focus{
+    outline: none;
+    border: none;
+}
+
+a:link,a:active,a:hover,a:visited{
+    text-decoration: none;
+} 
+
+.main-content{
+    max-width: 1400px;
+    margin: 0px auto;
+}
+
+/*----------- header--------- */
+.main-content header{
+    padding: 25px;
+}
+
+.main-content header h1,p{
+    text-align: center;
+    margin: 20px auto;
+    color: #000;
+}
+
+.main-content header h1{
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.main-content header p span{
+    color: #fff;
+    background-color: #000;
+    padding: 0px 5px ;
+}
+
+/* -------------------blog conatiner-------------- */
+
+.cards{
+    width: 100%;
+    margin: 20px 0px 50px 0px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2), 0 2px 10px 0 rgba(0,0,0,0.2);
+    background-color: #fff;
+}
+
+.cards img{
+    width: 100%;
+}
+
+.cards .container{
+    padding-bottom: 15px;
+}
+
+.cards .container h3,h5,p{
+    margin: 20px 0px;
+    text-align: left;
+}
+
+.cards .container h3{
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.cards .container h5{
+    font-size: 20px;
+}
+
+.cards .container h5 span{
+    opacity: 0.8;
+}
+
+.cards .container>p{
+    margin: 40px 0px;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.cards .row .read-more button{
+    padding: 15px;
+    border: 0.5px solid rgba(0,0,0,0.5);
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.cards .row .read-more button:hover{
+    background-color: #bdbdbd;
+}
+
+.cards .row .comments >p{
+    text-align: right;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+
+.cards .row .comments>p>span{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.cards .row .comments p>span span{
+    color: #fff;
+    background-color: #000;
+    padding: 1px 7px;
+}
+
+/* personal info */
+
+.personal-info .cards div >p{
+    margin: 20px 0px;
+}
+
+/* popular post */
+
+.popular-post div{
+    padding: 15px;
+}
+
+.popular-post div h3{
+    font-size: 24px;
+}
+
+.popular-post ul a:link,a:active,a:hover,a:visited{
+    text-decoration: none;
+    color: inherit;
+} 
+
+.popular-post ul a li{
+    padding: 16px;
+}
+  
+.popular-post ul a li:hover{
+    background-color: #bdbdbd;
+}
+
+.popular-post ul a li img{
+    width: 50px;
+    margin-right: 16px;
+    float: left;
+}
+
+/* tags */
+
+.tags div{
+    padding: 15px;
+}
+
+.tags div h3{
+    font-size: 24px;
+}
+
+.tags div span:first-child{
+    font-size: 15px;
+    color: #fff;
+    background-color: #000;
+} 
+
+.tags div span{
+    display: inline-block;
+    font-size: 12px;
+    padding: 1px 5px;
+    margin: 10px 5px;
+}
+
+/* footer */
+
+footer{
+    background-color: #616161;
+    padding-bottom: 30px;
+}
+
+footer div button{
+    color: #fff;
+    background-color: #000;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 30px 0px;
+}
+footer div button[disabled="disabled"]{
+    opacity: 0.3;
+}
+
+footer div p{
+    font-size: 16px;
+    color: #fff;
+}
+
+footer div p a{
+    color: inherit;
+}
+
+
